@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Simple Slider</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="slider">
+    <div class="slider__viewport">
+      <div class="slider__track">
+        <div class="slider__slide">Slide 1</div>
+        <div class="slider__slide">Slide 2</div>
+        <div class="slider__slide">Slide 3</div>
+      </div>
+    </div>
+
+    <div class="slider__controls">
+      <button class="slider__button js-prev">Prev</button>
+      <p class="slider__index">
+        <span class="js-current">1</span> / <span class="js-total">3</span>
+      </p>
+      <button class="slider__button js-next">Next</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
