@@ -70,7 +70,7 @@ track.addEventListener("transitionend", () => {
 
   isAnimating = false;
 
-  // clone1に来た
+  // 右端のclone Slide 1 に来たら、本物のSlide 1へ瞬間移動
   if (currentIndex === totalSlides + 1) {
 
     track.style.transition = "none";
@@ -81,7 +81,7 @@ track.addEventListener("transitionend", () => {
       `translateX(-${currentIndex * 100}%)`;
   }
 
-  // clone3に来た
+  // 左端のclone Slide 3 に来たら、本物のSlide 3へ瞬間移動
   if (currentIndex === 0) {
 
     track.style.transition = "none";
