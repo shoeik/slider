@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Infinite Slider</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="slider">
+
+    <div class="slider__viewport">
+      <div class="slider__track">
+
+        <div class="slider__slide">
+          <img
+            src="https://picsum.photos/id/10/1200/700"
+            alt=""
+          >
+        </div>
+
+        <div class="slider__slide">
+          <img
+            src="https://picsum.photos/id/20/1200/700"
+            alt=""
+          >
+        </div>
+
+        <div class="slider__slide">
+          <img
+            src="https://picsum.photos/id/30/1200/700"
+            alt=""
+          >
+        </div>
+
+      </div>
+    </div>
+
+    <div class="slider__controls">
+      <button class="js-prev">Prev</button>
+
+      <div>
+        <span class="js-current">1</span>
+        /
+        <span class="js-total">3</span>
+      </div>
+
+      <button class="js-next">Next</button>
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
