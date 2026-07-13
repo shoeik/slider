@@ -1,5 +1,3 @@
-
-
 const track = document.querySelector(".slider__track");
 const slides = document.querySelectorAll(".slider__slide");
 const prevButton = document.querySelector(".js-prev");
