@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 40px;
+  font-family: sans-serif;
+}
+
+.slider {
+  width: min(100%, 900px);
+  margin: auto;
+}
+
+.slider__viewport {
+  overflow: hidden;
+  border-radius: 20px;
+}
+
+.slider__track {
+  display: flex;
+  transition: transform .5s ease;
+}
+
+.slider__slide {
+  flex: 0 0 100%;
+}
+
+.slider__slide img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+}
+
+.slider__controls {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
